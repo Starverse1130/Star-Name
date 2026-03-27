@@ -1,6 +1,6 @@
 # ⭐ Star-Name
 
-A beautiful and interactive web application that creates a personalized "Star name" experience. This project demonstrates HTML, CSS, and JavaScript fundamentals with a clean, user-friendly interface.
+A beautiful and interactive web application that creates a personalized "Star name" experience. This project demonstrates HTML, CSS, and JavaScript fundamentals with a clean, user-friendly interface. 
 
 ---
 
