@@ -77,21 +77,4 @@ button:hover {
     font-size: 16px;
     background-color: #c4baaf;
     border: 2px solid #AB7864;
-        
 }
-/* 
-.card {
-    opacity: 1;
-    width: 80%;
-    height: 40%;
-    bottom: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid #AB7864;
-    border-radius: 10px;
-    background-color: #c4baaf;
-    position: absolute;
-    
-} */

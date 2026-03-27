@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star-Name</title>
-    <link rel="shortcut icon" href="images/Starverse.jpeg" type="image/x-icon">
+
+    <!-- PWA -->
+    <meta name="theme-color" content="#0f172a">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="box">
-        <img src="./images/Starverse.jpeg" alt="">
+        <img src="images/Starverse.jpeg" alt="My logo">
         <h1>Hello Dear</h1>
         <p>Tell me your name ?</p>
         <input type="text" name="name" id="name" placeholder="Join Starverse">
         <button id="btn">Star</button>
+
         <script src="script.js"></script>
-        <!-- <div class="card">
-            <h2>Hello </h2>
-            <button>Join us </button>
-        </div> -->
     </div>
+
+    <!-- Service Worker -->
+    <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js")
+        .then(() => console.log("PWA Ready ✅"));
+    }
+    </script>
+
 </body>
 </html>
+
