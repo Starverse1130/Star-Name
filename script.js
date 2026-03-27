@@ -1,12 +1,11 @@
-var Name = document.querySelector('h1')
-var btn = document.querySelector('#btn')
+var h1 = document.querySelector('h1')
+var Name = document.querySelector('#name')
+// var btn = document.querySelector('#btn')
+// var card = document.querySelector('.card')
+// // console.log(Name)
 
-// console.log(Name)
+btn.addEventListener('click',function(){
+    h1.innerHTML = `Welcome ` + Name.value
+})
 
-// btn.addEventListener('mouseenter',function(){
-//     btn.innerHTML = 'Join us'
-// })
 
-// btn.addEventListener('mouseleave',function(){
-//     btn.innerHTML = 'Star'
-// })

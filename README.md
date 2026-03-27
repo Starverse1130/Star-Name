@@ -39,6 +39,8 @@ Star-Name/
 └── images/
     ├── anku.jpg        # Profile image
     └── Star.png        # Sample output image
+    ├── Starverse.jpeg        # Favicon image    
+
 ```
 
 ---
